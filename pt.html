@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <title>Ricardo Moreira | Website Profissional</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="/logos/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="/lib/animate/animate.min.css" rel="stylesheet">
+        <link href="/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="/css/style.css" rel="stylesheet">
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        <script>
+            function onLanguageChange(x){
+                if(x == 'en'){
+                    document.getElementById('langSelect').value="pt";
+                    location.href = "../en/";
+                }                        
+            }
+        </script>
+
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#home" class="nav-item nav-link active">Início</a>
+                        <a href="#about" class="nav-item nav-link">Sobre mim</a>
+                        <a href="#skills" class="nav-item nav-link">Competências</a>
+                        <a href="#experience" class="nav-item nav-link">Experiência</a>
+                        <a href="#portfolio" class="nav-item nav-link">Portfólio</a>
+                        <!--<a href="#review" class="nav-item nav-link">Review</a>-->
+                        <a href="#contact" class="nav-item nav-link">Contactos</a>
+                    </div>
+                </div>
+
+                <style>
+                    #langSelect{
+                        outline: none;
+                        text-align: center;
+                        background-image: none;
+                        width: 40px;
+                        padding: 0;
+                        background-color: transparent;
+                        font-weight: bold;
+                        color: #111111;
+                    }
+                    @media (min-width: 992px) {
+                        #langSelect{
+                            color: #ffffff;
+                        }
+                        #langSelect option{
+                            color: #111111;
+                        }
+                        .nav-sticky #langSelect{
+                            color: #111111;
+                        }
+                    }
+                </style>
+                <div style="text-align: right;flex: auto;">
+                    <img src="/img/ipt.png" alt="PT" style="width: 30px;">
+                </div>
+
+                <select class="form-select" id="langSelect" onchange="onLanguageChange(this.value);">
+                    <option value="en">EN</option>
+                    <option value="pt" selected>PT</option>
+                </select>
+
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+
+
+        <!-- Hero Start -->
+        <div class="hero" id="home">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="hero-content">
+                            <div class="hero-text">
+                                <h1>Ricardo Moreira</h1>
+                                <h2></h2>
+                                <div class="typed-text">Desenvolvedor Web, Programador</div>
+                            </div>
+                            <div class="hero-btn">
+                                <a class="btn" href="/CV_RicardoMoreira.pdf" download>Faz Download do meu CV</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-none d-md-block">
+                        <div class="hero-image">
+                            <img src="/img/hero.png" alt="Hero Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+
+        <!-- About Start -->
+        <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="/img/about.jpg" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-header text-left">
+                                <p>Descobre Mais Sobre Mim</p>
+                                <h2>Acabado De Sair Do Secundário</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>Acabo de sair do ensino secundário através da <a href="https://www.epbjc.pt" target="_blank">Escola Profissional Bento de Jesus Caraça</a>, Delegação do Porto, onde tirei o curso de Técnico de Gestão e Programação de Sistemas Informáticos, e agora preparo-me para me candidatar à faculdade! Adoro aprender mais a cada dia! Além disso, gosto de desafios, porque gosto do sentimento de conquista, e prefiro trabalhar do que ficar parado.</p>
+                            </div>
+                            <div class="skills">
+                                <div class="skill-name">
+                                    <p>Desenvolvimento Web</p><p>70%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Web Design</p><p>65%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Desenvolvimento de Aplicações para Dispositivos Móveis</p><p>10%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Desenvolvimento de Aplicações para Desktop</p><p>80%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+        
+        
+        <!-- skills Start -->
+        <div class="skills" id="skills">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>O Que Eu Faço</p>
+                    <h2>As Minhas Competências</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="skills-item">
+                            <div class="skills-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skills-text">
+                                <h3>HTML & CSS</h3>
+                                <p>Consigo fácilmente compreender HTML, como também estiliza-lo com CSS.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="skills-item">
+                            <div class="skills-icon">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <div class="skills-text">
+                                <h3>PHP</h3>
+                                <p>Consigo tornar uma página web mais dinâmica através do PHP.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="skills-item">
+                            <div class="skills-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="skills-text">
+                                <h3>JavaScript</h3>
+                                <p>Posso utilizar o Javascript para práticamente todos os propósitos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="skills-item">
+                            <div class="skills-icon">
+                                <i class="fas fa-copyright"></i>
+                            </div>
+                            <div class="skills-text">
+                                <h3>C#</h3>
+                                <p>C#, para mim, é uma das linguagens mais fáceis de utilizar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="skills-item">
+                            <div class="skills-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skills-text">
+                                <h3>Python</h3>
+                                <p>Python é outra linguagem que eu acho bastante prática de utilizar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="skills-item">
+                            <div class="skills-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skills-text">
+                                <h3>MySQL</h3>
+                                <p>Sei um pouco de MySQL, mas a sua lógica eu sei muito bem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- skills End -->
+        
+        
+         <!-- Experience Start -->
+        <div class="experience" id="experience">
+            <div class="container">
+                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>O Meu Resumo</p>
+                    <h2>Experiência de Trabalho</h2>
+                </header>
+                <div class="timeline">
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Maio 2022 - Julho 2022</div>
+                            <h2>Desenvolvedor Web (Estágio)</h2>
+                            <h4><b><a href="https://www.luzroja.es" target="_blank"></a>luzroja</a></b>, Barcelona, Catalunha, Espanhã</h4>
+                            <p>Foi o meu primeiro estágio profissional, e foi em Barcelona. Gostei muito, e já estou com saudades dessa cidade linda.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">January 2023 - March 2023</div>
+                            <h2>Application Support Engineer (Estágio)</h2>
+                            <h4><b><a href="https://www.natixis.com" target="_blank">Natixis - Sucursal em Portugal</a></b>, Porto, Portugal</h4>
+                            <p>Foi uma experiência de trabalho muito produtiva e que eu nunca vou esquecer. Eu aprendi novas coisas e fui capaz de perceber como funciona uma equipa de suporte aplicacional.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Job Experience End -->
+
+        <!-- Portfolio Start -->
+        <div class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>Projetos E Mais</p>
+                    <h2>O Meu Portfólio</h2>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <ul id="portfolio-filter">
+                            <li data-filter="*" class="filter-active">Tudo</li>
+                            <li data-filter=".filter-1">Desenvolvimento Web</li>
+                            <li data-filter=".filter-2">Aplicações de Dispositivos Móveis</li>
+                            <li data-filter=".filter-3">Desenvolvimento para Desktop</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row portfolio-container">
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="/img/thumb-portfolio-1.png" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Website <a href="http://www.haikyuufansite.ricardo-moreira.pt" target="_blank">HaikyuuFanSite</a></h3>
+                                <a class="btn" href="/img/portfolio-1.png" data-lightbox="portfolio"><i class="fas fa-expand" style="font-size: 35px;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="/img/thumb-portfolio-2.png" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Conversor AngApp</h3>
+                                <a class="btn" href="/img/portfolio-2.png" data-lightbox="portfolio"><i class="fas fa-expand" style="font-size: 35px;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="/img/thumb-portfolio-3.png" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Projeto Rent-a-Car</h3>
+                                <a class="btn" href="/img/portfolio-3.png" data-lightbox="portfolio"><i class="fas fa-expand" style="font-size: 35px;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="/img/thumb-portfolio-4.png" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Projeto Warriors</h3>
+                                <a class="btn" href="/img/portfolio-4.png" data-lightbox="portfolio"><i class="fas fa-expand" style="font-size: 35px;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="/img/thumb-portfolio-5.png" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Sabotage Game</h3>
+                                <a class="btn" href="/img/portfolio-5.png" data-lightbox="portfolio"><i class="fas fa-expand" style="font-size: 35px;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="1s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="/img/thumb-portfolio-6.png" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Infinity List App</h3>
+                                <a class="btn" href="/img/portfolio-6.png" data-lightbox="portfolio"><i class="fas fa-expand" style="font-size: 35px;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio End -->       
+        
+        <!-- Testimonial Start
+        <div class="testimonial wow fadeInUp" data-wow-delay="0.1s" id="review">
+            <div class="container">
+                <div class="testimonial-icon">
+                    <i class="fa fa-quote-left"></i>
+                </div>
+                <div class="owl-carousel testimonials-carousel">
+                    <div class="testimonial-item">
+                        <div class="testimonial-img">
+                            <img src="img/testimonial-1.jpg" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>
+                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
+                            </p>
+                            <h3>Customer Name</h3>
+                            <h4>Profession</h4>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-img">
+                            <img src="img/testimonial-2.jpg" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>
+                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
+                            </p>
+                            <h3>Customer Name</h3>
+                            <h4>Profession</h4>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-img">
+                            <img src="img/testimonial-3.jpg" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>
+                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
+                            </p>
+                            <h3>Customer Name</h3>
+                            <h4>Profession</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         Testimonial End -->        
+        
+        <!-- Contact Start -->
+        <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
+            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                <h2 style="color: #ffffff;">Entra em Contacto</h2>
+            </div>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-8">
+                            <div class="contact-form">
+                                <div id="success"></div>
+                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Nome" required="required" data-validation-required-message="Por favor, introduza o seu nome" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Email" required="required" data-validation-required-message="Por favor, introduza o seu email" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="subject" placeholder="Assunto" required="required" data-validation-required-message="Por favor, introduza um assunto" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <textarea class="form-control" id="message" placeholder="Mensagem" required="required" data-validation-required-message="Por favor, escreva uma mensagem"></textarea>
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div>
+                                        <input type="hidden" id="lang" value="pt" />
+                                        <button class="btn" type="submit" id="sendMessageButton">Enviar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div class="footer wow fadeIn" data-wow-delay="0.3s">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="footer-info">
+                        <h2>Ricardo Moreira</h2>
+                        <div class="footer-menu">
+                            <p>+351 962 162 656</p>
+                            <p>Porto, Portugal</p>
+                        </div>
+                        <div class="footer-social">
+                            <a href="https://www.facebook.com/axel.blase.16/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/ricamoreira2005/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/ricardo-moreira-9a1904231/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <p>&copy; <a href="https://www.ricardo-moreira.pt">Ricardo Moreira</a>, Todos os Direitos Reservados | Design Inspirado em <a href="https://htmlcodex.com" target="_blank">HTML Codex</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        
+        <!-- Back to top button -->
+        <a href="#home" class="btn back-to-top" style="border: solid 1px #ffffff;"><i class="fa fa-chevron-up"></i></a>
+        
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="/lib/easing/easing.min.js"></script>
+        <script src="/lib/wow/wow.min.js"></script>
+        <script src="/lib/waypoints/waypoints.min.js"></script>
+        <script src="/lib/typed/typed.min.js"></script>
+        <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="/lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="/lib/lightbox/js/lightbox.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="/mail/jqBootstrapValidation.min.js"></script>
+        <script src="/mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="/js/main.js"></script>
+    </body>
+</html>
