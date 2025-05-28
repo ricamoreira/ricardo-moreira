@@ -68,7 +68,7 @@ a:focus {
     color: #ffffff;
     background: #52a1fc;
     border: 2px solid transparent;
-    border-radius: 0;
+    border-radius: 50px;
     box-shadow: inset 0 0 0 50px #52a1fc;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
@@ -151,6 +151,13 @@ a:focus {
     right: 15px;
     bottom: 15px;
     z-index: 9;
+    border-radius: 20px;
+    border: solid 1px #ffffff;
+}
+
+.back-to-top:hover {
+    background: #ffffff;
+    border-color: #52a1fc;
 }
 
 .back-to-top i {
@@ -158,7 +165,7 @@ a:focus {
 }
 
 .back-to-top:hover i {
-    color: #414141;
+    color: #52a1fc;
 }
 
 
@@ -684,6 +691,7 @@ a:focus {
     position: relative;
     border-right: 5px solid #dddddd;
     box-shadow: 0 0 60px rgba(0, 0, 0, .08);
+    border-radius: 20px;
 }
 
 .experience .timeline .timeline-item.right .timeline-text {
@@ -773,6 +781,7 @@ a:focus {
     align-items: center;
     box-shadow: inset 0 0 0 0 transparent;
     transition: ease-out 0.5s;
+    border-radius: 30px;
 }
 
 .skills .skills-item:hover {
@@ -788,6 +797,7 @@ a:focus {
     justify-content: center;
     border: 1px solid #52a1fc;
     background: #ffffff;
+    border-radius: 30px;
 }
 
 .skills .skills-icon i {
@@ -868,6 +878,7 @@ a:focus {
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
+    border-radius: 50px;
 }
 
 .portfolio #portfolio-filter li:hover,
@@ -890,6 +901,7 @@ a:focus {
 .portfolio .portfolio-img {
     position: relative;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .portfolio .portfolio-img img {
@@ -914,6 +926,7 @@ a:focus {
     align-items: center;
     background: #ffffff;
     box-shadow: 0 0 15px rgba(0, 0, 0, .12);
+    border-radius: 50px;
 }
 
 .portfolio .portfolio-text h3 {
@@ -1571,7 +1584,6 @@ a:focus {
 .footer .copyright {
     position: relative;
     text-align: center;
-    margin-top: 30px;
     padding-top: 25px;
     padding-bottom: 25px;
 }

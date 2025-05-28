@@ -56,6 +56,16 @@
         }
     });
     
+    // Smooth scrolling on the navbar links
+    $("#btn-message").on('click', function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            
+            $('html, body').animate({
+                scrollTop: $(this.hash).offset().top - 45
+            }, 1500, 'easeInOutExpo');
+        }
+    });
     
     // Typed Initiate
     if ($('.hero .hero-text h2').length == 1) {
